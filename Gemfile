@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.3'
 
 gem 'dotenv-rails', groups: [:development, :test]
-
+gem 'cloudinary', '~> 1.9.1'
 
 
 gem 'bootstrap-sass'
